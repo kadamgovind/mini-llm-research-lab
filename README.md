@@ -1,42 +1,58 @@
 # Mini-LLM Research Lab
 
-A research-oriented project for learning and implementing language models from first principles.
+A research-oriented project for understanding and implementing language
+models from first principles.
 
-## Objective
+The project starts with classical statistical language modeling and
+progressively builds toward neural language models, attention mechanisms,
+Transformers, and a small GPT-style Mini-LLM.
 
-The goal of this project is to understand, implement, train, evaluate, and
-experiment with small language models while building toward a complete
-Transformer-based Mini-LLM.
-
-## Research Areas
-
-- Language Modeling
-- Tokenization
-- Neural Networks
-- Embeddings
-- Attention
-- Transformers
-- GPT-style Models
-- Training
-- Inference
-- Evaluation
-- Optimization
-- Efficient AI
+---
 
 ## Project Status
 
-Version: `0.1.0`
+**Version:** `0.1.0`
 
-Current Stage:
+**Current Milestone:** Statistical Language Modeling
 
-> Level 0 — Project Foundation
+**Status:** Completed
 
-## Long-Term Architecture
+The `v0.1.0` milestone establishes the mathematical and software
+foundations required for the next generation of the project.
 
+---
+
+## Research Objective
+
+The primary objective is to understand how language models work by
+implementing their fundamental components rather than treating them as
+black boxes.
+
+The research progression is:
+
+```text
 Text
-→ Tokenizer
-→ Token Embeddings
-→ Transformer
-→ Language Model Head
-→ Next Token Prediction
-→ Text Generation
+ ↓
+Corpus
+ ↓
+Tokenization
+ ↓
+Vocabulary
+ ↓
+Statistical Language Modeling
+ ↓
+Probability Estimation
+ ↓
+Smoothing
+ ↓
+Neural Representations
+ ↓
+Embeddings
+ ↓
+Neural Language Model
+ ↓
+Attention
+ ↓
+Transformer
+ ↓
+Mini-LLM

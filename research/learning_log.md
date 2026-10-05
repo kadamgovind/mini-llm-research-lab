@@ -2,13 +2,45 @@
 
 ## Level 0 — Project Foundation
 
-Status: In Progress
+Status: Complete
 
-Topics:
+Implemented:
 
 - Git repository setup
-- Python virtual environments
+- Python virtual environment
 - Python packaging
-- Testing
+- Project structure
+- Automated testing
+- Static analysis
 - Linting
-- Research repository structure
+- Research documentation structure
+
+---
+
+## Level 1 — Statistical Language Modeling
+
+Status: Complete
+
+### Step 1 — Corpus
+
+Implemented:
+
+- Raw text corpus loading
+- UTF-8 corpus support
+- Sentence preparation
+
+---
+
+### Step 2 — Tokenization
+
+Implemented:
+
+- Basic tokenizer
+- Word tokenization
+- Punctuation tokenization
+- Sentence boundary handling
+
+Example:
+
+```text
+"I love AI."
